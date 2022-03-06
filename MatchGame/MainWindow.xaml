@@ -1,0 +1,73 @@
+﻿<Window x:Class="MatchGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatchGame"
+        mc:Ignorable="d"
+        Title="Find all of the matching animals" Height="450" Width="400">
+    <Grid HorizontalAlignment="Center" Width="400" x:Name="mainGrid" Height="434" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  />
+            <ColumnDefinition  />
+            <ColumnDefinition  />
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Center" 
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" MouseDown="TextBox_MouseDown" />
+        <TextBox HorizontalAlignment="Center" 
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="3" Margin="8,0,0,0"/>
+        <TextBox HorizontalAlignment="Center" 
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="1"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" />
+        <TextBox HorizontalAlignment="Center" Grid.Row="1"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Grid.Row="1"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="3" Margin="8,0,0,0"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="1"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="2"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" />
+        <TextBox HorizontalAlignment="Center" Grid.Row="2"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Grid.Row="2"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="3" Margin="8,0,0,0"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="2"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="2"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="3"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" />
+        <TextBox HorizontalAlignment="Center" Grid.Row="3"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Grid.Row="3"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="3" Margin="8,0,0,0"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="3"
+                 Text="?" VerticalAlignment="Center" Width="80" FontSize="36"
+                 TextAlignment="Center" Grid.Column="2"/>
+
+    </Grid>
+</Window>
